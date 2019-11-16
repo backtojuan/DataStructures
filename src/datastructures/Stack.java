@@ -3,7 +3,7 @@ package datastructures;
 public class Stack<Value> implements StackInterface<Value> {
 
 	private StackNode<Value> top;
-	
+
 	public Stack() {
 		top = null;
 	}
